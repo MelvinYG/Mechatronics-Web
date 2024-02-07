@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -60,6 +60,20 @@ body {
 }
 .caption{
     max-width: 80%;
+}
+
+.headingHero{
+    position: relative;
+    left: 40vw;
+    bottom: 50vh;   
+}
+
+/* about us*/
+.details{
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
 /* Footer */
