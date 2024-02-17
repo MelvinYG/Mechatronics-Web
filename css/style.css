@@ -1,22 +1,30 @@
 body {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
+    /* background-color: #f4f7fe; */
+    background-color: #FFFBF5;
+}
+
+.container{
+    min-height: 100vh;
 }
 /* NavBar */
 .nav-item{
     margin: 0 2rem !important;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 992px) {
     .navbar-nav li a {
         background-image: linear-gradient(
           to right,
-          #54b3d6,
-          #54b3d6 50%,
+          #FFFBF5,
+          #FFFBF5 50%,
           #000 50%
         );
         background-size: 200% 100%;
@@ -31,7 +39,7 @@ body {
       
       .navbar-nav li a:before{
         content: '';
-        background: #54b3d6;
+        background: #FFFBF5;
         display: block;
         position: absolute;
         bottom: -3px;
@@ -47,10 +55,14 @@ body {
       
       .navbar-nav li a:hover::before{
         width: 100%;
-      }   
+      }
+      .nav-link.active{
+        color: #FFFBF5;
+      }
 }
 
 /* HeroSection */
+
 .heroSection{
     background-color: grey;
     min-height: 80vh;
@@ -64,8 +76,24 @@ body {
 
 .headingHero{
     position: relative;
-    left: 40vw;
-    bottom: 50vh;   
+    left: 40%;
+    bottom: 50vh;  
+    color: white;
+    display: flex;
+    justify-content: start;
+    max-width: 40vw;
+}
+
+.iitimg img{
+    width: 5vw;
+}
+.headingIIT{
+    color: #54b3d6;
+}
+
+/* for links */
+.redirect-links{
+    scroll-margin-top: 50%; 
 }
 
 /* about us*/
@@ -76,9 +104,16 @@ body {
     text-align: justify;
 }
 
+/* contact icons */
+.fs-2{
+    color: #000 !important;
+}
+
 /* Footer */
 footer{
-    background-color: #beb7a4;
+    /* background-color: #beb7a4; */
+    /* background-color: #E5E1DA;  second choice */
+    background-color: #B67352;
     min-height: 30vh;
     text-align: center;
 
@@ -93,4 +128,9 @@ footer{
 .f-info-social i {
     padding-right: 2rem;
     color: black;
+}
+
+.fa-brands{
+    font-size: 1.5rem !important;
+    color: #ECB159;
 }

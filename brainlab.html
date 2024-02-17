@@ -12,58 +12,382 @@
 
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/teamStyle.css">
+    <link rel="stylesheet" href="css/faculty.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Mechatronic Website IIT Patna</title>
 </head>
 
 <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg mt-3 mb-3 bg-body-light sticky-top" style="background-color: white;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Mechatronics</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="brainlab.html">BRAIn Lab</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="curriculum.html">Curriculum</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="faculty.html">Faculty</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="students.html">Students</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#contactUs">Contact Us</a>
-                        </li>
-                    </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg border-bottom sticky-top" style="background-color: #ECB159;">
+        <div class="container-fluid m-3">
+            <a class="navbar-brand" href="#">Mechatronics</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="brainlab.html">BRAIn Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="curriculum.html">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faculty.html">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="students.html">Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contactUs">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <!-- Type-2 -->
+            <div class="message-div d-flex justify-content-center">
+                <div class="d-flex flex-column col-lg-8 justify-content-center my-3 p-4" style="background-color: #b77b5c; color: white;">
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum, neque, aperiam sequi amet ea
+                    cum voluptatibus, repellendus accusamus quisquam ipsum. Numquam explicabo, quasi optio inventore
+                    aliquam reprehenderit. Quis, suscipit libero? Ipsa ut ea adipisci esse modi, soluta blanditiis
+                    exercitationem est, cumque debitis corporis consequuntur fuga sint eos officiis, asperiores
+                    molestias laudantium dignissimos saepe sed dolor perspiciatis unde tempore harum. Doloremque modi
+                    aspernatur omnis obcaecati hic! Ea reiciendis, doloremque quo vel id deleniti? Iste soluta ut sit
+                    numquam, deserunt, omnis officiis eius aliquid, blanditiis quibusdam ducimus fugiat! Neque,
+                    architecto quidem facere animi culpa dolore veniam magni sint laborum, doloribus voluptatem?</p>
+                    <p class="text-end fw-bold">-Proffesor Name</p>
                 </div>
             </div>
-        </nav>
-        <h1>BRAIn Lab</h1>
-        <!-- Footer -->
-        <footer class="border-top mt-3">
-            <div class="f-info-social mt-3 mb-3">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
+            <h4 class="my-3 fw-bold"><span class="name-underline">Laboratory Facilities</span></h4>
+
+            <div class="labContent">
+                <div class="row">
+                    <h5>Mixed Signal Oscilloscope</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A Mixed Signal Oscilloscope (MSO) is a test and measurement instrument that combines
+                                analog
+                                and
+                                digital signal visualization. It can simultaneously capture and display both analog
+                                waveforms,
+                                such as voltage and current, and digital signals like logic signals. MSOs enable
+                                engineers
+                                to
+                                analyze complex electronic systems by providing a comprehensive view of analog and
+                                digital
+                                interactions, making them invaluable for debugging and troubleshooting in electronic
+                                design
+                                and development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Function Generator</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A function generator is a versatile electronic test instrument that produces various
+                                electrical waveforms, such as sine, square, and triangular waves. It is used in
+                                electronics and engineering for testing, calibration, and troubleshooting of circuits.
+                                Function generators generate precise and controllable signals, allowing engineers and
+                                technicians to simulate different frequency and amplitude conditions. This aids in
+                                designing, testing, and validating electronic devices, ensuring they function accurately
+                                under specific operating conditions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>DC Supply</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A DC (Direct Current) supply is a power source that provides a constant, unidirectional
+                                flow of electric charge. It delivers a stable voltage output, vital for powering
+                                electronic circuits and devices that require a steady and continuous supply of power. DC
+                                supplies find widespread use in various applications, from powering simple electronic
+                                components to supporting complex systems. Their reliability and ability to maintain a
+                                consistent voltage make them essential tools in electronics, ensuring proper functioning
+                                and longevity of connected devices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Digital Multimeter</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A digital multimeter (DMM) is a versatile electronic measuring instrument used to
+                                quantify electrical parameters in circuits. It typically measures voltage, current, and
+                                resistance, displaying results on a digital screen. Some models also measure
+                                capacitance, frequency, and temperature. DMMs offer high accuracy and precision compared
+                                to analog counterparts, making them essential tools for electronics, electrical
+                                engineering, and troubleshooting. Their user-friendly interface, portability, and
+                                ability to cover various measurement functions contribute to their widespread use in
+                                both professional and DIY settings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Soldering Station</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A soldering station is a specialized tool used in electronics for soldering and
+                                desoldering components on printed circuit boards. It consists of a power supply,
+                                temperature control unit, and a soldering iron with a precise temperature-regulating
+                                element. The soldering station provides a stable and adjustable heat source, ensuring
+                                accurate control over the soldering process. This allows for efficient and precise
+                                soldering of electronic components, contributing to the assembly, repair, and
+                                modification of circuits with improved safety and reliability.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Data Acquision</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>Data acquisition is the process of collecting and recording real-world information to
+                                convert it into a digital format for analysis. This involves capturing signals or data
+                                from sensors, instruments, or systems and converting them into electrical signals that
+                                can be interpreted by a computer. Data acquisition systems often include sensors, signal
+                                conditioning components, and analog-to-digital converters. This technology is essential
+                                in scientific research, industrial monitoring, and various fields where accurate and
+                                timely data analysis is crucial for decision-making and understanding complex phenomena.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Laser Cutting Machine</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A laser cutting machine is a precision tool that utilizes a laser beam to cut materials
+                                with exceptional accuracy. The machine directs the laser through a focusing lens,
+                                creating an intense, localized heat that melts or vaporizes the material. Widely used in
+                                industrial applications, it can cut diverse materials such as metal, plastic, wood, and
+                                fabric. Laser cutting offers high precision, speed, and versatility, making it a crucial
+                                tool in manufacturing, prototyping, and artistic applications for creating intricate and
+                                detailed designs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Coupled Tank</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A coupled tank system refers to a pair of interconnected tanks in fluid dynamics. These
+                                tanks share a common inlet or outlet, affecting fluid levels and flow between them.
+                                Changes in one tank impact the other due to the coupling, creating dynamic fluid
+                                interactions. This setup is commonly used in control systems and process engineering for
+                                studying fluid behavior, demonstrating principles like interconnected systems and
+                                feedback control. Understanding coupled tank dynamics is crucial in designing efficient
+                                fluid control processes and systems across various engineering applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>3D Printer</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A 3D printer is a revolutionary manufacturing device that builds three-dimensional
+                                objects layer by layer from digital models. It operates by depositing successive layers
+                                of material, such as plastic, metal, or resin, to construct intricate and customized
+                                objects. 3D printers are versatile tools used in various fields, from rapid prototyping
+                                in product design to producing intricate medical implants. Their ability to create
+                                complex shapes and prototypes with precision has transformed manufacturing, enabling
+                                rapid and cost-effective production of customized items across diverse industries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Active Mass Suspension System</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>An active mass suspension system is an advanced automotive technology that enhances
+                                vehicle ride comfort and stability. It involves incorporating actively controlled
+                                components, such as sensors, actuators, and electronic systems, to manage and manipulate
+                                the mass distribution within the vehicle. By dynamically adjusting the suspension
+                                characteristics in real-time, the system can counteract vibrations, improve handling,
+                                and adapt to varying road conditions. This innovative technology enhances overall
+                                vehicle performance, providing a smoother and more controlled driving experience while
+                                optimizing comfort and safety.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Furnace</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A furnace is a heating appliance designed to generate and distribute heat within a
+                                confined space. Typically fueled by gas, oil, electricity, or other energy sources, it
+                                utilizes a combustion process or electric heating elements to produce warmth. Furnaces
+                                are integral components in residential, industrial, and commercial heating systems. They
+                                circulate heated air through ducts or radiators to maintain comfortable indoor
+                                temperatures. Modern furnaces often incorporate energy-efficient technologies for
+                                improved performance, making them essential for climate control in various applications.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>PID Controller</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>A PID (Proportional-Integral-Derivative) controller is a feedback control system widely
+                                used in engineering to regulate processes and systems. It continuously adjusts an output
+                                based on the proportional, integral, and derivative terms of the system's error signal.
+                                The proportional term responds to the current error, the integral term addresses
+                                accumulated past errors, and the derivative term anticipates future error changes. This
+                                dynamic combination allows PID controllers to achieve accurate and stable control,
+                                making them crucial in applications like temperature regulation, robotics, and
+                                industrial automation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Microscopes</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>Microscopes are optical instruments that magnify small objects, enabling detailed
+                                observation of microscopic structures. They use lenses and illumination to enhance
+                                visibility of specimens like cells, bacteria, or materials at the microscopic level.
+                                Various types exist, including compound microscopes for high magnification and stereo
+                                microscopes for three-dimensional views. In fields like biology, medicine, and materials
+                                science, microscopes play a vital role in research, diagnosis, and quality control,
+                                offering insight into the intricate details of minuscule structures and facilitating
+                                scientific advancements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Festo Industrial automation kit</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>The Festo Industrial Automation Kit is a comprehensive solution for hands-on learning and
+                                application development in industrial automation. It includes a variety of components
+                                such as programmable logic controllers (PLCs), sensors, valves, and pneumatic elements.
+                                Designed for educational purposes, this kit allows users to explore and understand
+                                industrial automation principles. With its modular and user-friendly design, the Festo
+                                Industrial Automation Kit is suitable for training environments and academic
+                                institutions, providing a practical approach to mastering automation technologies in
+                                various industrial settings..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>KUKA KR3 R50</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>The KUKA KR3 R50 is a compact and versatile industrial robot developed by KUKA Robotics.
+                                With a payload capacity of 3 kilograms and a reach of 540 millimeters, it is designed
+                                for precision handling tasks in confined spaces. The robot features six axes for
+                                flexible and precise movement, making it suitable for applications such as assembly,
+                                packaging, and material handling. Its advanced design includes efficient motors and
+                                controllers, ensuring high-performance operation in industrial automation, contributing
+                                to increased productivity and operational efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>PCB Rapid prototyping</h5>
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <img src="assets/prof-img.jpeg" alt="" style="max-height: 20vh;">
+                        </div>
+                        <div class="col-lg-8 col-xs-12 d-flex justify-content-center mb-3" style="height: auto;">
+                            <p>PCB (Printed Circuit Board) rapid prototyping is a process that accelerates the design
+                                and development of electronic circuits. It involves the quick fabrication of prototype
+                                PCBs to test and validate designs before mass production. Rapid prototyping techniques
+                                include using specialized equipment like PCB milling machines, 3D printers, or services
+                                that offer quick turn PCB manufacturing. This enables engineers and designers to iterate
+                                on their circuit designs rapidly, identify potential issues, and make necessary
+                                adjustments efficiently, ultimately speeding up the product development cycle in
+                                electronics.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="mt-3 mb-3">&copy; <b>Mechatronic @ IIT Patna</b></div>
-        </footer>
+
+        </div>
     </div>
+    </div>
+    <!-- Footer -->
+    <footer class="border-top mt-3">
+        <div class="row">
+            <div class="row col-md-6 col-sm-12 mt-5">
+                <div class="col-sm-4 d-flex justify-content-end align-items-center"><img
+                        src="/assets/IIT-Patna-logo.webp" alt="" style="max-height: 12vh;"></div>
+                <div class="col-sm-8">
+                    <h5 class="text-start fw-bold">Mechatronics</h5>
+                    <h5 class="text-start fw-bold">Department of Mechanical Engineering</h5>
+                    <h5 class="text-start fw-bolder" style="color: #FFFBF5;">Indian Institute of Technology Patna</h5>
+                </div>
+            </div>
+            <!-- <div class="mapDiv col-md-6 col-sm-12">3</div> -->
+        </div>
+        <div class="row mt-5 border-top" style="background-color: #000000; color: #FFFBF5;">
+            <div class="col-lg-6 col-sm-12 fw-bold py-1">&copy; Copyright Department of Mechanical Engineering, IIT
+                Patna</div>
+            <div class="col-lg-6 col-sm-12 fw-bold py-1">Designed and Created by Melvin and Himanshi</div>
+        </div>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
