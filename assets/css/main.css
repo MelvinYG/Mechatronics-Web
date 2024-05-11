@@ -8,6 +8,7 @@
 /* Global Colors */
 :root {
   --background-color: #ffffff;
+  --background-color-sec: rgba(var(--heading-color-rgb), .05);
   --background-color-rgb: 255, 255, 255;
   --default-color: #444444;
   --default-color-rgb: 68, 68, 68;
@@ -852,24 +853,6 @@ section,
   font-size: 22px;
   line-height: 1.3;
   font-weight: 600;
-}
-
-.hero .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px 12px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-}
-
-.hero .btn-get-started:hover {
-  color: var(--contrast-color);
-  background: rgba(var(--accent-color-rgb), 0.85);
 }
 
 .hero .btn-watch-video {
@@ -1844,12 +1827,55 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact{
+  background-color: var(--background-color-sec);
+}
 .contact .info-wrap {
   box-shadow: 0px 0px 20px rgba(var(--default-color-rgb), 0.1);
-  border-top: 3px solid var(--accent-color);
-  border-bottom: 3px solid var(--accent-color);
   padding: 30px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .info-wrap h3{
+  border-bottom: 2px solid rgba(var(--default-color-rgb), 0.15);
+}
+
+.contact .news-item{
+  padding: 20px;
+}
+
+.contact .news-img-wrap{
+  min-width: auto;
+  max-height: 15vh;
+}
+
+.contact .news-img{
+}
+
+.contact .news-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .btn-get-started {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 12px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.contact .btn-get-started:hover {
+  color: var(--contrast-color);
+  background: rgba(var(--accent-color-rgb), 0.85);
 }
 
 @media (max-width: 575px) {
@@ -1897,8 +1923,6 @@ section,
 .contact .php-email-form {
   height: 100%;
   padding: 30px;
-  border-top: 3px solid var(--accent-color);
-  border-bottom: 3px solid var(--accent-color);
   box-shadow: 0px 0px 20px rgba(var(--default-color-rgb), 0.1);
 }
 
