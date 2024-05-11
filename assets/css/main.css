@@ -1852,8 +1852,8 @@ section,
   max-height: 15vh;
 }
 
-.contact .news-img{
-}
+/* .contact .news-img{
+} */
 
 .contact .news-info{
   display: flex;
@@ -2148,6 +2148,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+/* .starter-section {
+   Add your styles here 
+} */
