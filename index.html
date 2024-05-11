@@ -29,6 +29,10 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- Map links -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+
 </head>
 
 <body class="index-page">
@@ -322,31 +326,25 @@
             <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="services.html">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Curriculum</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>More Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" target="_blank">Curriculum</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="lab.html">Lab</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="gallery.html">Gallery</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="alumni.html">Alumni</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-          <div class="social-links d-flex">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
+          <!--The div element for the map -->
+          <div id="map" class="mapboxgl-map"></div>
+          <script src="/assets/js/map.js"></script>
         </div>
-
       </div>
     </div>
 
@@ -380,6 +378,8 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!-- MAP JS -->
+  <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
 </body>
 
 </html>
