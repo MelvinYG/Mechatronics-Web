@@ -1410,6 +1410,24 @@ section,
   height: 13rem;
 }
 
+.call-container{
+  position: relative;
+}
+
+.student-call-details{
+  display: none;
+  width: 12rem;
+  position: absolute;
+  top: 22px;
+  right: -25px ;
+  background-color: #fff;
+  border: 1px solid #444;
+  padding: 6px;
+  font-size: 12px;
+  z-index: 200;
+}
+
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
