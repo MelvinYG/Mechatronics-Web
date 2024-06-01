@@ -29,11 +29,12 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
+  <!-- Map links -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
 </head>
 
 <body class="index-page">
@@ -43,7 +44,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Mechatronics</h1>
+        <h1 class="sitename">Mechatronics IIT Patna</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -51,7 +52,7 @@
           <li><a href="index.html#hero" class="">Home</a></li>
           <li><a href="index.html#about">About</a></li>
           <li><a href="labs.html">Labs</a></li>
-<li><a href="gallery.html">Gallery</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
           <li><a href="curriculum.html" target="_blank">Curriculum</a></li>
           <li class="dropdown"><a href="#"><span>People</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -82,16 +83,35 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec
-                  porttitora entum suscipit rhoncus. Accusantium quam,
-                  ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                  risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  Studying Mechatronics at IIT Patna was an enriching journey that laid the foundation for my career.
+                  The diverse subjects and application-based projects sharpened my research abilities, critical
+                  thinking, time management, and problem-solving approach. These skills have proven indispensable in my
+                  role as an Embedded Software Engineer specializing in Robotics at MathWorks.
                 </p>
                 <img src="/assets/img/testimonials/blank_profile.svg" class="testimonial-img" alt="" />
-                <h3>Mustafa Aydin</h3>
-                <h4>February - 2024</h4>
+                <h3>Aditya Shah</h3>
+                <h4></h4>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p> I gained invaluable skills in areas such as Machine Learning, Deep Learning, IoT, and Robotics. These
+                  skills have been instrumental in shaping my career, enabling me to identify projects within the
+                  industry and contribute to their automation. The professors in the Mechatronics program provided
+                  excellent guidance, offering exposure to hands-on lab experience with robots. This practical learning
+                  environment not only built my confidence in working on real projects but also fostered a deeper
+                  understanding of industry applications. I am grateful for the support of the professors and staff,
+                  whose mentorship played a crucial role in enhancing my skills and providing valuable exposure
+                  to the industry.
+                </p>
+                <img src="/assets/img/testimonials/blank_profile.svg" class="testimonial-img" alt="" />
+                <h3>Nitin Mourya</h3>
+                <h4>
+                  Senior Engineer - R&D <br>
+                  John Deere India Pvt Ltd
+                </h4>
               </div>
             </div>
             <!-- End testimonial item -->
@@ -99,16 +119,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse
-                  labore quem cillum quid cillum eram malis quorum velit fore
-                  eram velit sunt aliqua noster fugiat irure amet legam anim
-                  culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  My name is Pulkit Kapoor, and I completed my master's in mechatronics from IIT Patna in the mechatronics department. The environment at IIT Patna significantly contributed to my skill development in various domains, including machine learning, deep learning, natural language processing, and robotics. Working on projects such as sign language detection and multimodal recommendation enabled me to secure a position as a data scientist. I am grateful to IIT Patna, the faculty, and the environment it provided, which helped me to grow. Currently, I am employed as a data scientist at InfoEdge.
                 </p>
                 <img src="/assets/img/testimonials/blank_profile.svg" class="testimonial-img" alt="" />
-                <h3>Nelo Tovar</h3>
-                <h4>January - 2024</h4>
+                <h3>Pulkit Kapoor</h3>
+                <h4>
+                  Data Scientist <br>
+                  InfoEdge
+                </h4>
               </div>
             </div>
             <!-- End testimonial item -->
@@ -116,27 +134,9 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim
-                  sint quorum nulla quem veniam duis minim tempor labore quem
-                  eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="/assets/img/testimonials/blank_profile.svg" class="testimonial-img" alt="" />
-                <h3>Kjetil Skotheim</h3>
-                <h4>December - 2023</h4>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Fugiat enim eram quae cillum dolore dolor amet nulla culpa
                   multos export minim fugiat minim velit minim dolor enim duis
                   veniam ipsum anim magna sunt elit fore quem dolore labore.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="/assets/img/testimonials/blank_profile.svg" class="testimonial-img" alt="" />
                 <h3>Peter Meszaros</h3>
@@ -167,53 +167,53 @@
     </section>
   </main>
 
-  <footer id="footer" class="footer">
-
+  <footer id="footer" class="footer border-top">
     <div class="container footer-top">
       <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">Arsha</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+        <div class="col-xl-4 col-md-7 col-12 row footer-about">
+          <div class="col-4 p-3">
+            <img src="/assets/img/IIT-Patna-logo.webp" class="img-fluid" alt="">
+          </div>
+          <div class="col-8">
+            <a href="index.html" class="d-flex flex-column">
+              <span class="sitename">Mechatronics</span>
+              <span>IIT Patna</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Department of Mechanical Engineering,</p>
+              <p>Indian Institute of Technology Patna</p>
+              <p>Patna, Bihar - 801103</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+              <!-- <p><strong>Email:</strong> <span>info@example.com</span></p> -->
+            </div>
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-xl-2 col-md-2 col-6 footer-links d-flex flex-column align-items-center">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services.html">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#contact">Contact</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+        <div class="col-xl-2 col-md-2 col-6 footer-links d-flex flex-column align-items-center">
+          <h4>More Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" target="_blank">Curriculum</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="lab.html">Lab</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="gallery.html">Gallery</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="alumni.html">Alumni</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-          <div class="social-links d-flex">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
+        <div class="col-xl-4 col-12">
+          <!--The div element for the map -->
+          <div id="map" class="mapboxgl-map"></div>
+          <script src="/assets/js/map.js"></script>
         </div>
-
       </div>
     </div>
 
@@ -226,6 +226,7 @@
     </div>
 
   </footer>
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
@@ -246,7 +247,8 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <!-- MAP JS -->
+  <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
 </body>
 
 </html>
