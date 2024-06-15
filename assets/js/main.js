@@ -243,3 +243,14 @@ new Swiper(".testimonials-slider", {
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+// For navlinks to stay active
+
+document.addEventListener("DOMContentLoaded", function() {
+  const path = window.location.pathname;
+  const page = path.split("/").pop().split(".")[0]; // Extract the page name from the URL
+
+  // Remove the '.html' from the file name if it exists and add the 'active' class to the corresponding link
+  // if(page.length > )
+  document.getElementById(`${page}`).classList.add('active');
+});

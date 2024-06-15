@@ -180,6 +180,10 @@ h6 {
     transition: 0.3s;
   }
 
+  .navmenu a.active{
+    color: var(--nav-hover-color);
+  }
+
   .navmenu li:last-child a {
     padding-right: 0;
   }
